@@ -1,0 +1,32 @@
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    height: 43vw;
+    width: 80vw;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "img1 img2 img3 img3"
+        "img1 img4 img5 img6"
+        "img7 img4 img8 img8";
+}
+
+$bgColor: (
+    "1": lightblue,
+    "2": lightcoral,
+    "3": lightgray,
+    "4": mediumpurple,
+    "5": orange,
+    "6": salmon,
+    "7": yellowgreen,
+    "8": teal,
+);
+
+@for $i from 1 through 8 {
+    .img#{$i} {
+        grid-area: img#{$i};
+        background-color: map-get($bgColor, #{$i});
+        border-radius: 10px;
+    }
+}

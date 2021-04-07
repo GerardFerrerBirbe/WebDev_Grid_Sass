@@ -1,0 +1,69 @@
+/* line 1, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  height: 43vw;
+  width: 80vw;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img1 {
+  grid-area: img1;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img2 {
+  grid-area: img2;
+  background-color: lightcoral;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img3 {
+  grid-area: img3;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img4 {
+  grid-area: img4;
+  background-color: mediumpurple;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img5 {
+  grid-area: img5;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img6 {
+  grid-area: img6;
+  background-color: salmon;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img7 {
+  grid-area: img7;
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+
+/* line 27, ../Google Drive/Cursos/Certif_Professionalitat_Web/Exercicis/019.practica-grid-masonry/scss/style.scss */
+.img8 {
+  grid-area: img8;
+  background-color: teal;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
